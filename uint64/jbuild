@@ -1,0 +1,9 @@
+(jbuild_version 1)
+
+(library (
+  (name uint64)
+  (public_name uint.uint64)
+  (wrapped false)
+  (synopsis "Dummy package for testing on mirage")
+  (libraries (uint))
+))

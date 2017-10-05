@@ -1,0 +1,9 @@
+(jbuild_version 1)
+
+(library (
+  (name uint32)
+  (public_name uint.uint32)
+  (wrapped false)
+  (synopsis "Dummy package for testing on mirage")
+  (libraries (uint))
+))

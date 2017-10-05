@@ -1,0 +1,8 @@
+opam-version: "1.2"
+name: "uint"
+
+build: ["jbuilder" "build" "-p" name "-j" jobs]
+
+depends: [
+  "jbuilder" {build}
+]
